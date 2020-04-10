@@ -1,0 +1,19 @@
+{
+  "name": "standalone_automation_testing",
+  "version": "1.0.0",
+  "description": "A Testing framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "node nightwatch.js"
+  },
+  "author": "Ahsan Ahmed",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "chromedriver": "^80.0.2",
+    "geckodriver": "^1.19.1",
+    "iedriver": "^3.14.2",
+    "nightwatch": "^1.3.4",
+    "selenium-server": "^3.141.59"
+  }
+}
